@@ -9,6 +9,7 @@ public class Hello {
 		System.out.println("Here Ye, Here Ye: Important Announcement");
 		System.out.println("Hello world!");
 		System.out.println("Now...goodbye");
+		//Is this working?
 	}
 
 }
