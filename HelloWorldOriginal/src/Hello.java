@@ -16,6 +16,10 @@ public class Hello {
 		int year = calendar.get(Calendar.YEAR);
 		System.out.println("Today's date is " + month + ("/") + date + ("/") + year);
 		
+		System.out.println("Available free memory is " + 
+				  Runtime.getRuntime().freeMemory() + " bytes.");
+
+		
 	}
 
 }
